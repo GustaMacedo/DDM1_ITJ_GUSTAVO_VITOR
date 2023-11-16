@@ -1,0 +1,418 @@
+[
+   {
+        "Posicao":0,
+        "text":"você é um policial e chega ao local de uma ocorrencia com seu parceiro, vocês iram entrar na residencia ou vigiar um pouco?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"entrar",
+        "texp":"esperar",
+        "anterior":1,
+        "proxima":22
+
+    }, 
+
+
+    {
+        "Posicao":1,
+        "text":"você escuta barulhos no telhado enquanto conversava com a familia, vai atirar ou subir para investigar?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"atirar",
+        "texp":"investigar",
+        "anterior":2,
+        "proxima":3
+    },
+
+    {
+        "Posicao":2,
+        "text":"você atira e acaba acertando o filho do casal que brincava no sotão",
+        "imagem":"assets/images/pistola.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+    {
+        "Posicao":3,
+        "text":"quando você sobe acha o filho do fazendeiro brincando, irá esperar com a familia na casa ou investiga-ra lá fora?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"sair para fora",
+        "texp":"esperar",
+        "anterior":4,
+        "proxima":5
+    },
+
+    {
+        "Posicao":4,
+        "text":"do lado de fora é possivel avistar um celeiro e uma entrada para o porão, para onde ir ?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"porao",
+        "texp":"celeiro",
+        "anterior":6,
+        "proxima":5
+    },
+
+
+    {
+        "Posicao":5,
+        "text":"você entra aos poucos e ve tudo destruido,escuta um barulho de algo caindo, atirar ou iluminar?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"iluminar",
+        "texp":"atirar",
+        "anterior":8,
+        "proxima":7
+    },
+
+    {
+        "Posicao":6,
+        "text":"vc acha apenas algumas galinhas, escuta tiros vindo da casa, corre para lá e encontra seu parceiro e a familia mortos ",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+    {
+        "Posicao":7,
+        "text":"ao iluminar a criatura se assuta e pula em vc te matando",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"mooreu",
+        "texp":"morreu",
+        "anterior":6,
+        "proxima":8
+    },
+
+    {
+        "Posicao":8,
+        "text":"com a luz do tiro vc ve que a bala perfurou o peito da criatura que corre para fora sangrando, chamar o parceiro ou ir sozinho?",
+        "imagem":"assets/images/pistola.jpg",
+        "texa":"parceiro",
+        "texp":"sozinho",
+        "anterior":9,
+        "proxima":10
+    },
+
+    {
+        "Posicao":9,
+        "text":"depois de ir chama-lo vcs tentam procurar rastros porém não encontram nada",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+    {
+        "Posicao":10,
+        "text":"a criatura entra na floresta porem seguindo seus rastros vc chega até uma bifurcação na trilha, pela esuqerda ou direita?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"esquerda",
+        "texp":"direita",
+        "anterior":11,
+        "proxima":12
+    },
+
+    {
+        "Posicao":11,
+        "text":"vc caminha por um tempo mas acaba caindo de um precipicio e morre",
+        "imagem":"assets/images/esquerda.jpg",
+        "texa":"inicio",
+        "texp":"inicio",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":12,
+        "text":"vc chega a uma clareira, enquanto olhava para os lados ve a criatura pulando em sua direção, atirar ou desviar?",
+        "imagem":"assets/images/direita.jpg",
+        "texa":"atirar",
+        "texp":"desviar",
+        "anterior":13,
+        "proxima":14
+    },
+
+
+    {
+        "Posicao":13,
+        "text":"o tiro acerta a perna porem a criatura rasga seu pescoço e vc sangra até a morte",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"morreu",
+        "texp":"morreu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":14,
+        "text":"vc rola para o lado e a criatura cai de costas para vc , no momento oportuno efetua o disparo matando-a",
+        "imagem":"assets/images/TROFEU.jpg",
+        "texa":"vitoria",
+        "texp":"vitoria",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":15,
+        "text":"a luz da casa derrepente apaga, acender as velas ou ir para fora?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"sair para fora",
+        "texp":"velas",
+        "anterior":16,
+        "proxima":17
+    },
+
+
+
+    {
+        "Posicao":16,
+        "text":"vc sai para a varanda, a criatura que estava em cima da porta pula rasgando seu peito até a morte",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"morreu",
+        "texp":"morreu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":17,
+        "text":"depois de ascender as velas vcs escutam uma chuva de pedras caindo na casa e até entrando pela janela, ir para o deposito ou para o qaurto?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"deposito",
+        "texp":"quarto",
+        "anterior":18,
+        "proxima":19
+    },
+
+
+
+    {
+        "Posicao":18,
+        "text":"vc seu parceiro e a familia se escondem porem a criatura abre a porta e solta uma labareda de fogo pela boca carbonizando vcs",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"morreu",
+        "texp":"morreu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":19,
+        "text":"lá vcs escutam fogo no andar debaixo de casa, pular pela janela ou descer as escadas?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"pular",
+        "texp":"descer",
+        "anterior":20,
+        "proxima":21
+    },
+
+
+
+    {
+        "Posicao":20,
+        "text":"vc é o ultimo a pular e ve um ultimo relance da criatura em meio as chamas",
+        "imagem":"assets/images/TROFEU.jpg",
+        "texa":"venceu",
+        "texp":"venceu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":21,
+        "text":"a escada cede e vcs ficam presos em meio aos escombros e morrem pela fumaça",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"morreu",
+        "texp":"morreu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":22,
+        "text":"vcs veem um vulto passar correndo para a casa, entraram juntos ou separados?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"separados",
+        "texp":"juntos",
+        "anterior":23,
+        "proxima":29
+    },
+
+
+
+    {
+        "Posicao":23,
+        "text":"seu parceiro entra na casa e vc vai por fora vendo a criatura pulando para fora da casa pela janela te derrubando, correr atras ou buscar o carro?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"correr atras",
+        "texp":"carro",
+        "anterior":24,
+        "proxima":25
+    },
+
+
+    {
+        "Posicao":24,
+        "text":"vc a parde no milharal",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":25,
+        "text":"vc pega o carro e a parsegue no milharal derrubando os milhos e acertando-a jogando ela para a estrada, tentar conversar ou atirar?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"conversar",
+        "texp":"atirar",
+        "anterior":26,
+        "proxima":28
+    },
+
+
+    {
+        "Posicao":26,
+        "text":"ela solta grunhidos e um grito ensurdecedor, tentar tocala ou atirar?",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"tocar",
+        "texp":"atirar",
+        "anterior":27,
+        "proxima":28
+    },
+
+
+
+    {
+        "Posicao":27,
+        "text":"quando vc escosta sente o espaço e o tempo dilatando, uma nausea infernal e sua mão carboniza enquanto a criatura foge através de um portal vermelho que se abre no chão",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":28,
+        "text":"vc da um tiro e a criatura é vencida",
+        "imagem":"assets/images/TROFEU.jpg",
+        "texa":"venceu",
+        "texp":"venceu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":29,
+        "text":"vcs encontram uma criatura humanoide no meio da cozinha",
+        "imagem":"assets/images/lupa.jpg",
+        "texa":"correr",
+        "texp":"atirar",
+        "anterior":30,
+        "proxima":31
+    },
+
+
+
+    {
+        "Posicao":30,
+        "text":"a criatura pula nas suas costas e te mata",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"morreu",
+        "texp":"morreu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+
+    {
+        "Posicao":31,
+        "text":"vc erra o tiro e a criatura pula pela janela,correr atras ou esperar|?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"correr atras",
+        "texp":"esperar",
+        "anterior":32,
+        "proxima":33
+    },
+
+
+
+
+    {
+        "Posicao":32,
+        "text":"ela corre pela porpriedade, atirar ou correr atras?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"atirar",
+        "texp":"correr atras",
+        "anterior":34,
+        "proxima":35
+    },
+
+    {
+        "Posicao":33,
+        "text":"a criatura foge e não volta",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":34,
+        "text":"vc erra e ela foge",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    },
+
+
+    {
+        "Posicao":35,
+        "text":"vc ve ela pulando a cerca em direção a floresta ,pular ou passar por baixo?",
+        "imagem":"assets/images/bota.jpg",
+        "texa":"pular",
+        "texp":"passar por baixo",
+        "anterior":10,
+        "proxima":36
+    },
+
+
+    {
+        "Posicao":36,
+        "text":"vc se enrosca no arame farpado e ela foge",
+        "imagem":"assets/images/lapide.jpg",
+        "texa":"perdeu",
+        "texp":"perdeu",
+        "anterior":0,
+        "proxima":0
+    }
+
+
+
+
+
+]
